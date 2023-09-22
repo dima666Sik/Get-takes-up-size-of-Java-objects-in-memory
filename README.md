@@ -13,12 +13,14 @@
 
 ### Preview, I hope you enjoy it 😊
 
-<p>Welcome!</p><br>
+<p>Welcome!</p>
+
 This project allow us check how much to find out how much space a Java object takes up in memory.
 This is Maven project.<br>
 If u want to find detailed instructions click on this [link](https://www.baeldung.com/java-size-of-object).<br>
 In this readme I describe [short instructions](#usage) how to run this project into your PC.<br>
 If u want known more about [`Instrumentation`](https://www.baeldung.com/java-instrumentation) click on this word.<br>
+
 ---
 
 ## Project Structure
