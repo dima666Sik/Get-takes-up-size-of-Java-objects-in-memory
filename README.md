@@ -39,7 +39,7 @@ ___
 
 ## Usage
 
-1. I recommended u to clone my project from the GitHub.
+1. I would you recommended to clone my project from the GitHub.
    <br> If u wanna do this please use this command:
 
 ```md  
