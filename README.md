@@ -13,7 +13,7 @@
 
 ### Preview, I hope you enjoy it 😊
 
-<p>Welcome!</p>
+Welcome!
 
 This project allow us check how much to find out how much space a Java object takes up in memory.
 This is Maven project.<br>
