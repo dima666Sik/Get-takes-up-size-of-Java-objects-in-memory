@@ -5,6 +5,7 @@
 - [Description](#description)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
+- [Result](#result)
 - [Author Info](#author-info)
 
 ---
@@ -46,24 +47,27 @@ git clone https://github.com/dima666Sik/Get-takes-up-size-of-Java-objects-in-mem
 ```
 
 2. To run this project you will need to install:
-    - JDK 11 or higher;
+    - JDK 8 or higher;
 
-2. If you have downloaded a project and want to run it with your own database then you have to change .properties file
-   which will be
-   stored in a module `DatabaseCon` in this way `src/main/java/resouces/hibernate.properties` and put your valid data
-   please.
+3. If you continue, u must generate .jar for `InstrumentationAgent` and `InstrumentationExample` as well.<br>
+Open terminal and go to those modules and use command below compiles the source code, runs tests, and packages the project into a JAR or other distributable format. It also installs the built artifact into your local Maven repository.
 
-```properties
-
+```md
+mvn clean install
 ```
+4. To run `InstrumentationExample` u can to return into parent module (using `cd ..`) and use command below. 
 
-3. Here are the steps for you to follow:
-    - Add this project to your IDE as `Maven` project.
-    - If necessary, configure `Java SDK 11` in `Project Structure settings`.
-
-4. If you want to see documentation, please check javadoc in resources this app for each module.
-
+```md
+java -javaagent:".\InstrumentationAgent\target\InstrumentationAgent-1.0-SNAPSHOT.jar" -jar .\InstrumentationExample\target\InstrumentationExample-1.
+0-SNAPSHOT.jar
+```
 ---
+
+## Result
+
+U can see this result if u do all steps right.
+
+![Result](InstrumentationExample/src/main/resources/img_for_github/result.png)
 
 ## Author Info
 
